@@ -1,6 +1,6 @@
 //In questo codice, utilizziamo il prompt per chiedere all'utente di inserire un numero di 4 cifre. Successivamente, controlliamo se il numero inserito ha effettivamente una lunghezza di 4 cifre. Se il numero non ha 4 cifre, viene visualizzato un messaggio di errore.
 
-//Se il numero ha 4 cifre, utilizziamo un ciclo for per iterare attraverso ogni cifra del numero. All'interno del ciclo, convertiamo ogni cifra in un numero intero utilizzando parseInt(), e quindi aggiungiamo il valore della cifra alla variabile sum per calcolare la somma totale delle cifre.
+//Se il numero ha 4 cifre, utilizziamo un ciclo for. All'interno del ciclo, convertiamo ogni cifra in un numero intero utilizzando parseInt(), e quindi aggiungiamo il valore della cifra alla variabile sum per calcolare la somma totale delle cifre.
 
 //Infine, stampiamo la somma delle cifre in console utilizzando console.log() se il numero ha 4 cifre corrette
 
