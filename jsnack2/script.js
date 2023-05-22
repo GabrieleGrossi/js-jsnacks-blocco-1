@@ -16,3 +16,16 @@ if (invited) {
 } else{
     console.log ('La persona non è nella lista degli invitati')
 }
+
+
+let sum = 0;
+const max = 10;
+
+for (let i = 1; i <= max ; i++){
+    sum += i;
+}
+
+const media = sum / max;
+
+console.log('La somma dei primi dieci numeri é ' + sum);
+console.log('La media dei primi dieci numeri é ' + media);
