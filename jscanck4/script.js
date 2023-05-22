@@ -15,3 +15,21 @@ if (number.length !== 4) {
   }
   console.log("La somma delle cifre è: " + sum);
 }
+
+
+function confrontaLunghezzaParole(prima, seconda) {
+  if (prima.length === seconda.length) {
+    console.log('Le due parole sono lunghe uguale')
+    console.log(prima);
+    console.log(seconda);
+  } else if (prima.length > seconda.length) {
+    console.log(prima + ' è la parola più lunga');
+  } else {
+    console.log(seconda + ' è la parola più lunga');
+  }
+}
+
+const prima = prompt("Inserisci la prima parola:");
+const seconda = prompt("Inserisci la seconda parola:");
+
+confrontaLunghezzaParole(prima, seconda);
