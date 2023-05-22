@@ -16,8 +16,12 @@ if (number.length !== 4) {
   console.log("La somma delle cifre è: " + sum);
 }
 
+// Creo una funzione per chiedere all'utente due parole e vedere quale delle due è più lunga
 
+//creo la funzione
 function confrontaLunghezzaParole(prima, seconda) {
+  
+  //do il comando di stampare in console le varie risposte
   if (prima.length === seconda.length) {
     console.log('Le due parole sono lunghe uguale')
     console.log(prima);
@@ -29,6 +33,8 @@ function confrontaLunghezzaParole(prima, seconda) {
   }
 }
 
+
+//chiedo all'utente le due parole
 const prima = prompt("Inserisci la prima parola:");
 const seconda = prompt("Inserisci la seconda parola:");
 
