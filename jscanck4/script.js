@@ -39,3 +39,24 @@ const prima = prompt("Inserisci la prima parola:");
 const seconda = prompt("Inserisci la seconda parola:");
 
 confrontaLunghezzaParole(prima, seconda);
+
+/*
+// *****ESERCIZIO DI RICCARDO*****
+const parolaUno = prompt('Inserisci la prima parola');
+const parolaDue = prompt('Inserisci la seconda parola');
+if(areWordsLongTheSame (parolaUno, parolaDue)){
+  console.log('sono lunghe uguali')
+} else if(parolaUno.length > parolaDue.length){
+  console.log('la prima è la pià lunga');
+} else{
+  console.log('la seconda è la più lung');
+}
+
+function areWordsLongTheSame (primaParola, secondaParola){
+  if (primaParola.length === secondaParola) {
+    return true;
+  }
+  return false
+}
+
+*/
